@@ -34,15 +34,19 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+
+<img width="1249" alt="(before)-nsg-malicious-allowed-in" src="https://github.com/imadeda/Azure-Cloud-Soc/assets/152673708/909c25de-76ee-46da-94f5-2ecbab4c5347"> <br>
+<img width="1180" alt="(before)-linux-ssh-auth-fail" src="https://github.com/imadeda/Azure-Cloud-Soc/assets/152673708/d920a565-872d-4a1f-9b3b-4316167829b5"> <br>
+<img width="1116" alt="(before)-windows-rdp-auth-fail" src="https://github.com/imadeda/Azure-Cloud-Soc/assets/152673708/e44a50d6-8015-42d2-8a7e-44126a015317">
+
+
+
 
 ## Metrics Before Hardening / Security Controls
 
-The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2023-03-15 17:04:29
-Stop Time 2023-03-16 17:04:29
+The following table shows the metrics we measured in our insecure environment for 24 hours:<br>
+Start Time 2023-11-27 18:22<br>
+Stop Time 2023-11-28 18:22<br>
 
 | Metric                   | Count
 | ------------------------ | -----
@@ -59,8 +63,8 @@ Stop Time 2023-03-16 17:04:29
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+Start Time 2023-11-29 20:52<br>
+Stop Time	2023-11-30 20:52</br>
 
 | Metric                   | Count
 | ------------------------ | -----
